@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+
+.card-background{
+    width: 100%;
+    height: 100px;
+    margin-top: 30%;
+    background-color: rgba(226, 242, 231, 0.5);
+}
+.card-img{
+    min-height: 30%;
+}
+.row100{
+    width: 100%;
+}
+.text-categories{
+    font-size: 1vw;
+}
+
+.categor{
+    text-align: center;
+    align-items: center;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.btn-more{
+    background-color: #5ed354;
+    border-radius: 0;
+    width: 150px;
+    margin: 5em;
+}
+.text-c-body{
+    height: 100px;
+    text-align: center;
+}
+
+hr{
+    height:5px;
+    border-width:0;
+    color:#5ed354;
+    background-color:#5ed354;
+}
+.content{
+    height: fit-content;
+    overflow: hidden;
+}
+
+.content1{
+    background-color: #ebfff1;
+    width: 50%;
+    height: 1200px;
+    height: fit-content;
+    align-items: center;
+}
+
+.content2{
+    width: 50%;
+    height: 1200px;
+    height: fit-content;
+    align-items: center;
+}
+
+.masEmpisteutikan{
+    background-image: url("../assets/images/Plegma.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    justify-content: center;
+}
+
+.masEmpisteutikan > .row >.column {
+    padding: 10%;
+    align-items: center;
+}
+
+.masEmpisteutikan > .row >.column > img{
+    width: 100%;
+    height: auto;
+}
+.headTitle{
+    text-align: left;
+}
+.first-row{
+    background-color: #dddddd;
+    width: 100%;
+    height: 25em;
+}
+.second-row{
+    height: 24.5em;
+}
+.avatar > img{
+    border:5px solid #222222;
+    border-radius: 100%;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.avatar{
+    align-items: left;
+    justify-content: left;
+}
+.titlesSpace{
+    padding-left: 5%;
+}
+.avt{
+    display: block;
+    justify-items: start;
+}
+.forma{
+    background-color: #363636;
+    padding: 3%;
+}
+.form-control{
+    color: #5ed354;
+}
+input[type=text]{
+    background-color: #5e5e5e;
+    border: 0px;
+    border-radius: 0;
+    line-height: 50px;
+    padding-left: 5%;
+    outline: none;
+}
+input[type=submit]{
+    color: white;
+    border: 2px solid #5ed354;
+    background-color: #545454;
+    width: 150px;
+    line-height: 35px;
+}
+.textar{
+    background-color: #5e5e5e;
+    border: 0px;
+    border-radius: 0;
+    padding-left: 2.5%;
+    padding-top: 1.5%;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #5ed354;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #5ed354;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #5ed354;
+}
+
+footer{
+    background-color: #ebfff1;
+}
+
+.copyright{
+    background-color: #363636;
+    color: #5ed354;
+    text-align: center;
+}
+.copyright > p {
+    font-size: 1vw;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.columna{
+    width: 50%;
+}
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 2px solid #000000;
+    }  
+}
+
+@media only screen and (max-width: 991px) {
+    /* For mobile phones: */
+    .card-background{
+        margin-top: 16%;
+        height: 80px;
+    }
+    .text-categories{
+        font-size: 2.5vw;
+    }
+    .content1{
+        width: 100%;
+    }
+    .content2{
+        width: 100%;
+    }
+    .headTitle{
+        text-align: center;
+    }
+    .masEmpisteutikan{
+        background-image: url("");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        justify-content: center;
+    }
+    .first-row{
+        height: auto;
+    }
+    .second-row{
+        height: auto;
+    }
+    .avatar{
+        align-items: center;
+        justify-content: center;
+    }
+    .titlesSpace{
+        padding-left: 0%;
+    }
+    .avt{
+        display: grid;
+        justify-items: center;
+    }
+    .copyright > p {
+        font-size: 2vw;
+    }
+    .columna{
+        width: 100%;
+    }
+    
+}
